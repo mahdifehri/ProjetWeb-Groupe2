@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+
+use test;
+
+CREATE TABLE users (
+	id INT(100) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+	firstname VARCHAR(200) NOT NULL,
+	date date NOT NULL,
+	views INT(200)  NULL,
+);
